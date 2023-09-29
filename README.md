@@ -36,4 +36,13 @@ remotes::install_github("davidsjoberg/ggsankey")
 
 ## Plotted Image
 
+The following code was used to generate the plot as below: 
+
+```R
+remotes::install_github("davidsjoberg/ggsankey")
+remotes::install_github("ShreyaNayak256/SNsankeyPlotter")
+library('SNsankeyPlotter')
+plot_sankey()
+```
+
 ![Sankey Diagram](Sankey_plot.png)

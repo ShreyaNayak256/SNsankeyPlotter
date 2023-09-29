@@ -33,6 +33,12 @@ Before installing `SNsankeyPlotter`, ensure you have the `ggsankey` package inst
 ```R
 remotes::install_github("davidsjoberg/ggsankey")
 ```
+**Other Libraries:**
+- dplyr
+- tidyr
+- ggplot2
+- crayon
+
 
 ## Plotted Image
 

@@ -1,0 +1,17 @@
+Package: SNsankeyPlotter
+Title: Sankey Diagram Plotter
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shreya", "Nayak", , "nayakshr@usc.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides a function to plot a Sankey diagram based on pre-defined data.
+License: MIT + file LICENSE  # You can choose the license you prefer
+Encoding: UTF-8
+Imports:
+    dplyr,
+    tidyr,
+    ggplot2,
+    ggsankey,
+    crayon
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
